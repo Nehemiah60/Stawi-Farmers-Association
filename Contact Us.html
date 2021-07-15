@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="icon" href="Images/logo.jpg">
+    <link rel="stylesheet" href="CSS/do.css">
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        body {
+            background-color: #0b2e13;
+        }
+        form{
+            background: palegreen;
+        }
+        h1,h4{
+            padding-left: 20px;
+            margin: 30px 0;
+            color: white;
+        }
+        .duress {
+            background-color: #1A2223;
+
+        }
+    </style>
+</head>
+<body>
+<!--NAV BAR-->
+
+<nav class="navbar navbar-expand-sm top sticky-top ">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Stawi Farmers</a>
+
+    <!--Toggler-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="PROJECT.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About%20Us.html">About Us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Our Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Education%20and%20Training.html">Education and Training</a>
+                    <a class="dropdown-item" href="Irrigation.html">Sustainable Irrigation</a>
+                    <a class="dropdown-item" href="Commercial%20Agriculture.html">Commercial Agriculture</a>
+
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="Careers.html"> Careers</a>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+
+
+        </ul>
+    </div>
+
+</nav>
+<h1><b>Contact Us</b></h1>
+<hr>
+<div class="row">
+    <div class="col-sm-6">
+        <form action="" method="post" class="sasa">
+            <label for=""><b> First Name</b></label>
+            <input type="text" name="fname" placeholder="* First Name" required class="form-control">
+            <label for=""><b> Last Name</b></label>
+            <input type="text" name="lname" placeholder="* Your Last Name" required class="form-control">
+            <label for=""><b>Email Address</b></label>
+            <input type="email" name="email" placeholder="* Your Email Address" required class="form-control">
+            <label for=""><b> Telephone Number</b></label>
+            <input type="tel" name="telephone number" placeholder="* Your telephone number" class="form-control">
+            <label for=""><b>Comments</b></label>
+            <textarea name="" id="" cols="30" rows="10" class="form-control"> Your Comments</textarea>
+            <hr>
+            <div class="button">
+                <input type="submit" name="submit" value="submit" class="btn btn-success">
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-6 mata">
+        <img src="Images/logo.jpg" alt="" width="100%" height="400">
+        <hr>
+        <h4 class="text-center">Stawi Farmers</h4>
+        <h4 class="text-center">Email: @stawi.com</h4>
+        <h4 class="text-center">Tel: +65681242121</h4>
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>
